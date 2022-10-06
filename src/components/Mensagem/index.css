@@ -1,0 +1,36 @@
+.mensagem{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+    height: 50%;
+    width: 80%;
+    z-index: 100;
+    display: none;
+}
+
+.success{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacao 0.3s linear;
+}
+.error{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacao 0.3s linear;
+}
+
+@keyframes animacao {
+    0%{
+        transform: translateY(-10%);
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateY(0%);
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,26 @@
+.button{
+    position: absolute;
+    bottom: 9%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.button button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border:  1px solid #565164;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #726c81;
+    transition: .8s;
+}
+.button button:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 723px) {
+    .button {
+        bottom: 5%;
+    }
+}

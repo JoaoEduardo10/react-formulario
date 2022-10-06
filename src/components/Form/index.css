@@ -1,0 +1,21 @@
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "nav nav";
+    padding: 20px;
+    background-color: rgb(231, 227, 227);
+    gap: 1.4rem;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+@media (max-width: 723px) {
+    form{
+        display: flex;
+        flex-direction: column;
+        height: 840px;
+    }
+}

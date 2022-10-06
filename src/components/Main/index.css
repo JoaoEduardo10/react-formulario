@@ -1,0 +1,23 @@
+main{
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1.4rem;
+}
+
+main h1{
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold; 
+    text-align: center;  
+}
+@media (max-width: 723px) {
+    main{
+        width: 90%;
+    }
+}

@@ -10,7 +10,6 @@ import { Mensagem } from "../Mensagem";
 
 export const Main = () => {
     const context = useContext(Context)
-    const {state} = context
     if(context.state.loadin){
         setTimeout(() => {
             context.dispatch({ type: "ERROR" })

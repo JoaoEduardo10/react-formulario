@@ -6,15 +6,19 @@ export const data = {
 }
 
 const reducer = (state, actions) => {
-    switch (actions.type) {
+    // eslint-disable-next-line
+    switch (actions.type){
+        // eslint-disable-next-line
         case "success":{
             return {...state, loadin: true}
         }
+        // eslint-disable-next-line
         case "ERROR": {
             return {...state, loadin: false}
         }
+            
+        
     }
-
 
     return {...state}
 }

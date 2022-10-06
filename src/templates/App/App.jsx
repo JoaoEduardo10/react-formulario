@@ -2,7 +2,7 @@ import "./App.css"
 
 
 import { Main } from "../../components/Main";
-import { AppContext, Context } from "../../components/context";
+import { AppContext} from "../../components/context";
 
 
 function App() {
